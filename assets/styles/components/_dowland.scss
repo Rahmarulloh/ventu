@@ -1,0 +1,65 @@
+.big-container {
+    width: 1000px;
+    height: 700px;
+    background-color: #111617;
+    display: grid;
+    justify-content: center;
+}
+.text-and-photo1 {
+    width: 350px;
+    height: 100%;
+    padding: 30px;
+}
+
+.tekst1 {
+    font-size: 44px;
+    padding: 10px;
+    color: #fff;
+}
+
+.tekst2 {
+    font-size: 16px;
+    padding: 10px;
+    color: #a5a6a7;
+}
+
+.dowland {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #111617;
+    color: #00fce3;
+    border: 1px solid #a5a6a7;
+    margin: 20px;
+}
+
+.dowland:hover {
+    background-color: #00fce3;
+    color: #111617;
+}
+
+.rasm1 {
+    padding: 20px;
+}
+.knopka1 {
+    width: 150px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: #24292a;
+    color: #fff;
+    border: white;
+  }
+  .knopka1:hover {
+    background-color: #00fce3;
+    color: black;
+}
+.buttons1 {
+    width: 600px;
+    height: 90px;
+    background-color: #24292a;
+    border-radius: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

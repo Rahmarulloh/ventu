@@ -1,111 +1,11 @@
 /* Komol's code starts here */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-body {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  background-color: rgba(17, 22, 23, 1);
-}
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 150px;
 }
-.section1 {
-  width: 100%;
-  max-width: 1440px;
-  height: 700px;
-  background-color: #111617;
-  display: flex;
-  align-items: center;
-}
-.texts-and-button {
-  width: 500px;
-  height: 300px;
-  margin-left: 100px;
-}
-.text1 {
-  color: #fff;
-  font-size: 44px;
-  padding: 10px;
-}
-.text2 {
-  color: #a5a6a7;
-  font-size: 16px;
-  padding: 20px;
-}
-.buttons {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-}
-.designers {
-  display: flex;
-  gap: 50px;
-  margin-left: 70px;
-}
 
-.section2 {
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  width: 1300px;
-  height: 700px;
-  background-color: #111617;
-  border-radius: 20px;
-  display: flex;
-}
-.text-and-photo1 {
-  width: 350px;
-  height: 100%;
-  /* background-color: aqua; */
-  padding: 30px;
-}
-.tekst1 {
-  font-size: 44px;
-  padding: 10px;
-  color: #fff;
-}
-.tekst2 {
-  font-size: 16px;
-  padding: 10px;
-  color: #a5a6a7;
-}
-.dowland {
-  width: 200px;
-  height: 60px;
-  border-radius: 30px;
-  background-color: #111617;
-  color: #00fce3;
-  border: 1px solid #a5a6a7;
-  margin: 20px;
-}
-.dowland:hover {
-  background-color: #00fce3;
-  color: #111617;
-}
-.rasm1 {
-  padding: 20px;
-}
-.big-container {
-  width: 1000px;
-  height: 700px;
-  background-color: #111617;
-  display: grid;
-  justify-content: center;
-}
 .buttons1 {
   width: 600px;
   height: 90px;
@@ -115,18 +15,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-.knopka1 {
-  width: 150px;
-  height: 90px;
-  border-radius: 30px;
-  background-color: #24292a;
-  color: #fff;
-  border: white;
-}
-.knopka1:hover {
-  background-color: #00fce3;
-  color: black;
 }
 /* Komol's code ends here */
 
