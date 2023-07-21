@@ -1,0 +1,37 @@
+:root {
+	--white: #ffffff;
+	--smoky-gray: #2e2e2e;
+	--smoky-black: #202020;
+	--ruby-glow: #b72b2b;
+	--steel-ebony: #272727;
+	--dark-shade: #525252;
+	--jet-black: #1f1f1f;
+	--magenta: #ff158b;
+	--aqua: #16ffab;
+	--white-rgba: rgba(255, 255, 255, 0.7);
+	--pumpkin-orange: #ff891d;
+	--sky-blue: rgba(40, 95, 236, 0.1);
+	--dark-gray: rgba(50, 50, 50, 0.5);
+	--transparent-white: rgba(255, 255, 255, 0.1);
+	--charcoal: #323232;
+	// 2nd Figma
+	--light-blue: #cdd9f7;
+	--midnight-blue: #040a19;
+	--blue-gray: #edf0f7;
+	--fire-red: #ea1818;
+	--pale-blue: #f7f9fa;
+	--dodger-blue: #285fec;
+	--engine-red: #ff2424;
+	--baby-blue: #eaf4ff;
+	--fuchsia: #ec28c1;
+	--pink: rgba(236, 40, 193, 0.06);
+	--transparent-gradient: linear-gradient(
+		90deg,
+		rgba(4, 10, 25, 0.25) 0%,
+		rgba(3, 8, 21, 0) 100%
+	);
+}
+
+$unit: 0;
+$display: true;
+$bgcards: url("../../images/card1.png"), url("../../images/card2.png"), url("../../images/card3.png"), url("../../images/card1.png");
