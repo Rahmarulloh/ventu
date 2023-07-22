@@ -1,0 +1,14 @@
+.nav {
+    height: 100px;
+    color: #B9B9B9;
+    @include d-flex($fd: row, $jc: center, $ai: center, $gp: 40px);
+}
+
+ul.nav li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}

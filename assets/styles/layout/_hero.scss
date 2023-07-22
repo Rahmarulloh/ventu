@@ -1,0 +1,54 @@
+.hero {
+  width: 100%;
+  @include d-flex($fd: row, $jc: space-evenly, $ai: center);
+
+  &_title {
+    color: #fff;
+    font-family: Sarabun;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  &_desc {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  &_texts {
+    @include d-flex($fd: column, $jc: space-evenly, $ai: start, $gp: 40px);
+  }
+
+  &_image {
+    & > img {
+      width: 334px;
+      height: 500px;
+    }
+  }
+
+  &_btns {
+    @include d-flex($fd: row, $jc: space-evenly, $ai: start, $gp: 24px);
+  }
+
+  &_trailer-btn {
+    width: 259px;
+    height: 60px;
+    color: #fff;
+    border-radius: 100px;
+    background: transparent;
+    border: 1.5px solid #fff;
+  }
+}
+
+.hero_context {
+  width: 50%;
+  height: 100%;
+  @include d-flex($fd: column, $jc: space-evenly, $ai: start, $gp: 50px);
+}
