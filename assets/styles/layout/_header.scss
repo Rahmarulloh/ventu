@@ -1,0 +1,4 @@
+.header {
+    width: 100%;
+    @include d-flex($jc: space-evenly, $ai: center);
+}

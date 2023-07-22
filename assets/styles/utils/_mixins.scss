@@ -20,3 +20,13 @@
 	gap: $gp;
 }
 
+@mixin d-flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin d-grid-center {
+	display: grid;
+	place-items: center;
+}
