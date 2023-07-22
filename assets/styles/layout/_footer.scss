@@ -1,0 +1,10 @@
+.footer {
+  @include d-grid;
+  margin: 110px 0 0;
+
+  &_nav {
+    color: #fff;
+    font-family: Sarabun;
+    @include d-flex($fd: row, $jc: space-evenly, $ai: center);
+  }
+}
