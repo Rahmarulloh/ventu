@@ -1,4 +1,10 @@
 /* Jamshidbek 2787 */
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
 .section4 {
   display: flex;
   flex-direction: column;
@@ -127,4 +133,29 @@
   border-radius: 20px;
   background: #1b1f20;
 }
+.sec5-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sec5-top > :nth-child(1) {
+  color: #fafafb;
+  font-family: Sarabun;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec5-top > :nth-child(2) {
+  width: 452px;
+  color: #a5a6a7;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
 /* Jamshidbek2787 */
